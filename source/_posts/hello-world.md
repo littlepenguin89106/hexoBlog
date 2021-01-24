@@ -1,7 +1,14 @@
 ---
 title: Hello World
+categories: music
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
+<div id="player1" class="player">a</div>
+<br/>
+<br/>
+<button onClick="players[0].seekTo(150);">150</button>
+<script>var plist=["3R_lziAXdzI","lMFrn59TN_c"];</script>
+<script src="/js/player.js"></script>
 
 ## Quick Start
 

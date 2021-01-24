@@ -2,7 +2,21 @@
 Thumbs.db
 db.json
 *.log
-node_modules/
 public/
 .deploy*/
 themes/
+
+# whitelist player.js and btnList.css
+!node_modules/
+node_modules/*
+!node_modules/hexo-theme-next/
+node_modules/hexo-theme-next/*
+!node_modules/hexo-theme-next/source
+node_modules/hexo-theme-next/source/*
+!node_modules/hexo-theme-next/source/js
+node_modules/hexo-theme-next/source/js/*
+!node_modules/hexo-theme-next/source/js/player.js
+
+!node_modules/hexo-theme-next/source/css/
+node_modules/hexo-theme-next/source/css/*
+!node_modules/hexo-theme-next/source/css/btnList.css
