@@ -16,7 +16,8 @@ node_modules/hexo-theme-next/source/*
 !node_modules/hexo-theme-next/source/js
 node_modules/hexo-theme-next/source/js/*
 !node_modules/hexo-theme-next/source/js/player.js
+!node_modules/hexo-theme-next/source/js/insertBtn.js
 
 !node_modules/hexo-theme-next/source/css/
 node_modules/hexo-theme-next/source/css/*
-!node_modules/hexo-theme-next/source/css/btnList.css
+!node_modules/hexo-theme-next/source/css/btn.css

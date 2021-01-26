@@ -2,44 +2,13 @@
 title: Hello World
 categories: music
 ---
+<link rel="stylesheet" href="/css/btn.css"></link>
+<script src="/js/insertBtn.js"></script>
 
-<div id="player1" class="player">a</div>
-<br/>
-<br/>
-<button onClick="players[0].seekTo(150);">150</button>
-<script>var plist=["3R_lziAXdzI","lMFrn59TN_c"];</script>
+<div id="player1" class="player"></div>
+<div id="btnGroup1" class=""></div>
+<script>insertBtn("btnGroup1","btnBar1","5 to 10",0,5,10);</script>
+<script>insertBtn("btnGroup1","btnBar2","15 to 20",0,15,20);</script>
+
+<script>var plist=["Y4nEEZwckuU"];</script>
 <script src="/js/player.js"></script>
-
-## Quick Start
-
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
