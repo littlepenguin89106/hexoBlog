@@ -8,7 +8,7 @@ subtitle: ''
 description: '一個音樂愛好者，想透過這個小小空間，分享感受'
 keywords: music,share,feeling
 author: lil0w1
-language: zh-TW
+language: en
 timezone: ''
 
 # URL
@@ -106,3 +106,21 @@ deploy:
   type: git
   repo: https://github.com/littlepenguin89106/littlepenguin89106.github.io.git
   branch: main
+
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+neat_js:
+  enable: true
+  mangle: true #打印日志
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/jquery.fancybox.pack.js'
+    - '**/index.js'

@@ -19,6 +19,7 @@ node_modules/hexo-theme-next/layout/*
 !node_modules/hexo-theme-next/layout/_macro
 node_modules/hexo-theme-next/layout/_macro/*
 !node_modules/hexo-theme-next/layout/_macro/sidebar.njk
+!node_modules/hexo-theme-next/layout/_macro/post.njk
 
 !node_modules/hexo-theme-next/source
 node_modules/hexo-theme-next/source/*
