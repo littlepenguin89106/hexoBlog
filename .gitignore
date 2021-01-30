@@ -6,11 +6,20 @@ public/
 .deploy*/
 themes/
 
-# whitelist player.js and btnList.css
+# project whitelist
 !node_modules/
 node_modules/*
 !node_modules/hexo-theme-next/
 node_modules/hexo-theme-next/*
+
+!_config.yml
+
+!node_modules/hexo-theme-next/layout
+node_modules/hexo-theme-next/layout/*
+!node_modules/hexo-theme-next/layout/_macro
+node_modules/hexo-theme-next/layout/_macro/*
+!node_modules/hexo-theme-next/layout/_macro/sidebar.njk
+
 !node_modules/hexo-theme-next/source
 node_modules/hexo-theme-next/source/*
 !node_modules/hexo-theme-next/source/js
@@ -21,3 +30,9 @@ node_modules/hexo-theme-next/source/js/*
 !node_modules/hexo-theme-next/source/css/
 node_modules/hexo-theme-next/source/css/*
 !node_modules/hexo-theme-next/source/css/btn.css
+
+!node_modules/hexo-theme-next/source/images
+node_modules/hexo-theme-next/source/images/*
+!node_modules/hexo-theme-next/source/images/girl.gif
+!node_modules/hexo-theme-next/source/images/avatar.jpg
+!node_modules/hexo-theme-next/source/images/paper.png
