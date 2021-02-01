@@ -1,7 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
-categaries: music
+categaries:
+- music
 ---
 
 # <div style="color: rgb(233, 146, 66);">前言</div>
