@@ -37,3 +37,7 @@ node_modules/hexo-theme-next/source/images/*
 !node_modules/hexo-theme-next/source/images/girl.gif
 !node_modules/hexo-theme-next/source/images/avatar.jpg
 !node_modules/hexo-theme-next/source/images/paper.png
+!node_modules/hexo-theme-next/source/images/apple-touch-icon-blog.png
+!node_modules/hexo-theme-next/source/images/favicon-16x16-blog.png
+!node_modules/hexo-theme-next/source/images/favicon-32x32-blog.png
+
